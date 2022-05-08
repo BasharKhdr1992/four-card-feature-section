@@ -28,6 +28,12 @@
   justify-content: space-between;
 }
 
+@media screen and (min-height: 700px) {
+  .card-container-col {
+    justify-content: center;
+  }
+}
+
 @media screen and (max-width: 900px) {
   .wrapper {
     padding-bottom: 0;

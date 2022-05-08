@@ -36,3 +36,9 @@
     margin-bottom: 2rem;
   }
 }
+
+@media screen and (min-height: 700px) {
+  .card-col {
+    margin-bottom: 2rem;
+  }
+}
