@@ -1,0 +1,29 @@
+.header-1 {
+  color: hsl(229, 6%, 66%);
+}
+
+.header-2 {
+  color: hsl(234, 12%, 34%);
+}
+
+.header-3 {
+  color: hsl(229, 6%, 66%);
+}
+
+.center {
+  text-align: center;
+}
+
+@media screen and (min-width: 900px) {
+  .header-3 {
+    width: 30rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header-1,
+  .header-2,
+  .header-3 {
+    text-align: start;
+  }
+}
